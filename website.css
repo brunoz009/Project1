@@ -44,7 +44,7 @@
     width: 50%; 
 }
 .card {   
-    width: 700px;
+    max-width: 700px;
     height: 450px;
     background-color: #f9f9f9;
     border: 1px solid black;
@@ -54,7 +54,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
     
 }
 .card h2 {
@@ -69,8 +68,11 @@
     line-height: 1.5;
 }
 .info {
+    display: flex;
     color: #999;
     font-size: 1rem;
+    flex-direction: column;
+    margin-top: auto;
 }
 .benelli {
     display: flex;
@@ -99,7 +101,7 @@
     width: 50%; 
 }
 .card {   
-    width: 700px;
+    max-width: 700px;
     height: 450px;
     background-color: #f9f9f9;
     border: 1px solid black;
@@ -149,7 +151,7 @@
     width: 50%; 
 }
 .card {   
-    width: 700px;
+    max-width: 700px;
     height: 450px;
     background-color: #f9f9f9;
     border: 1px solid black;
